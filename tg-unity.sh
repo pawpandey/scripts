@@ -1,6 +1,6 @@
 #!/bin/sh
-# p4recedit.sh
-# Reconcile add all file types provided as arguments in command line
+# tg-unity.sh
+# Shorthand to tail grep Unity logs on OS X
 
 (set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
 
