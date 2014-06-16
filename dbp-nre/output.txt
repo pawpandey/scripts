@@ -1,0 +1,32 @@
+return PrimaryCommander.GetComponent<StatisticsComponent>().Affinity;
+
+OUTPUT: 
+// #debug - debug null reference exception
+string msg = "";
+msg += "  (PrimaryCommander != null) = " 
+	+ (PrimaryCommander != null);
+if (PrimaryCommander != null) {
+	msg += "  (PrimaryCommander.GetComponent<StatisticsComponent>() != null) = " 
+		+ (PrimaryCommander.GetComponent<StatisticsComponent>() != null);
+	if (PrimaryCommander.GetComponent<StatisticsComponent>() != null) {
+		msg += "  (PrimaryCommander.GetComponent<StatisticsComponent>().Affinity != null) = "
+			+ (PrimaryCommander.GetComponent<StatisticsComponent>().Affinity != null);
+	}
+}
+GameLog.info(msg);
+
+
+PSEUDO:
+iterations     output
+1              PrimaryCommander
+2              PrimaryCommander.GetComponent<StatisticsComponent>()
+3              PrimaryCommander.GetComponent<StatisticsComponent>().Affinity
+
+
+
+// #debug - debug null reference exception
+string dbgMsg = "";
+dbgMsg +=   "(PrimaryCommander != null) = " + (PrimaryCommander != null);
+if (PrimaryCommander != null) {
+dbgMsg +=   "(PrimaryCommander.GetComponent<StatisticsComponent>() != null) = " + (PrimaryCommander.GetComponent<StatisticsComponent>() != null);
+GameLog.info(dbgMsg);
