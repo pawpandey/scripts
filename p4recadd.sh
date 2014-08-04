@@ -10,8 +10,8 @@ for x
 
 do
 	echo "P4 Reconcile Adding $x..."
-	p4 -q -c $workspace reconcile -a -f //$workspace/Client/Assets/....$x
-	p4 -q -c $workspace reconcile -a -f //$workspace/Client/Assets/....$x.meta
+	p4 -q -c $workspace reconcile -a -f //$workspace/....$x
+	p4 -q -c $workspace reconcile -a -f //$workspace/....$x.meta
 done
 
 echo "p4 Reconcile Add $x done"

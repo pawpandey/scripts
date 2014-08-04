@@ -6,6 +6,6 @@
 
 echo "p4 Reconcile Add All..."
 
-p4recadd.sh cs png prefab js json.txt mp3 mat fnt
+p4recadd.sh cs png prefab js json.txt mp3 mat fnt tmpl txt
 
 echo "p4 Reconcile Add All done."
