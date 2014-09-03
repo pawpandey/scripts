@@ -39,7 +39,7 @@ open_command="firefox %url"
 log_file="$HOME/.imgur-screenshot.log"
 
 copy_url="true"
-keep_file="true"
+keep_file="false"
 check_update="true"
 
 ############## END CONFIG ##############
