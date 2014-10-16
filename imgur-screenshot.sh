@@ -34,13 +34,14 @@ fi
 edit_command="gimp %img"
 edit="false"
 edit_on_selection_fail="false"
+open_in_browser_after_upload="false"
 open_command="firefox %url"
 
 log_file="$HOME/.imgur-screenshot.log"
 
 copy_url="true"
-keep_file="true"
-check_update="true"
+keep_file="false"
+check_update="false"
 
 ############## END CONFIG ##############
 
@@ -70,7 +71,7 @@ fi
 # notify <'ok'|'error'> <title> <text>
 function notify() {
   if is_mac; then
-    terminal-notifier -title "$2" -message "$3"
+    echo -title "$2" -message "$3"
   else
     if [ "$1" = "error" ]; then
       notify-send -a ImgurScreenshot -u critical -c "im.error" -i "$imgur_icon_path" -t 500 "$2" "$3"
@@ -272,7 +273,7 @@ function handle_upload_success() {
 
   notify ok "imgur: Upload done!" "$1"
 
-  if [ ! -z "$open_command" ]; then
+  if [ "$open_in_browser_after_upload" = "true" ]; then
     open_command=${open_command/\%url/$1}
     open_command=${open_command/\%img/$2}
     echo "Opening '$open_command'"
@@ -292,16 +293,16 @@ which="$(which "$0")"
 origin_dir="$( dirname "$(readlink "$which" || echo "$which")")"
 
 # get the current version from version.txt
-if [ -f "$origin_dir/version.txt" ]; then
-  current_version="$(cat "$origin_dir/version.txt")"
-  if [ -z "$current_version" ]; then
-    echo "Something went wrong while getting the current version from '$origin_dir/version.txt'"
-  fi
-else
-  current_version="?!?"
-  echo "Unable to find file '$origin_dir/version.txt' - Make sure it does exist."
-  echo "You can download the file from https://github.com/jomo/imgur-screenshot/"
-fi
+#if [ -f "$origin_dir/version.txt" ]; then
+#  current_version="$(cat "$origin_dir/version.txt")"
+#  if [ -z "$current_version" ]; then
+#    echo "Something went wrong while getting the current version from '$origin_dir/version.txt'"
+#  fi
+#else
+#  current_version="?!?"
+#  echo "Unable to find file '$origin_dir/version.txt' - Make sure it does exist."
+#  echo "You can download the file from https://github.com/jomo/imgur-screenshot/"
+#fi
 
 if [ "$1" = "-v" ]; then
   echo "$current_version"
