@@ -1,0 +1,10 @@
+#!/bin/sh
+
+REPO="/Users/btriana/test_repo/"
+
+echo "Message" >> "$REPO"test.txt
+echo "Message" >> "$REPO"test2.txt
+echo "Message" >> "$REPO"test3.txt
+
+svn ci $REPO -m "Test commit"
+
