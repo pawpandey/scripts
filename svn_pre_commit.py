@@ -23,24 +23,27 @@ if transaction != "":
     svnlook_cmd += "-t " + transaction
 
 # Store list of SVN changes
-svnLookData = (os.popen(svnlook_cmd).read())
-svnChanges = svnLookData.split('\n')
+svnlook_data = (os.popen(svnlook_cmd).read())
+svn_changes = svnlook_data.split('\n')
 
-textFile = open("/Users/btriana/Desktop/py_output.txt", "w")
+text_file = open("/Users/btriana/Desktop/py_output.txt", "w")
 
-exitCode = 0
+exit_code = 0
 
 # Return an error if a forbidden file is being deleted
-forbidden_file = "test2.txt"
+found_forbidden_files = []
+forbidden_files = ["test2.txt","test3.txt"]
 
-for currChange in svnChanges:
-    textFile.write(currChange + '\n')
-    # if "D   " in currChange:
-    if "U   " in currChange:
-        if forbidden_file in currChange:
-            exitCode = 1
+for curr_change in svn_changes:
+    for curr_forbid_file in forbidden_files:
+        text_file.write(curr_change + '\n')
+        # if "D   " in curr_change:
+        if "U   " in curr_change:
+            if curr_forbid_file in curr_change:
+                found_forbidden_files.append(curr_forbid_file)
+                exit_code = 1
 
-print forbidden_file
-textFile.close()
-sys.exit(exitCode)
+print found_forbidden_files
+text_file.close()
+sys.exit(exit_code)
 
