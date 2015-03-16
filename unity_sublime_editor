@@ -1,0 +1,12 @@
+#!/bin/sh
+ 
+# Change '/opt/sublime_text/sublime_text' to the path to your executable of Sublime Text.
+ 
+# Sublime Text 2:
+# "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" $1:$2:$3
+ 
+# Sublime Text 3:
+"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" $1:$2:$3
+ 
+echo "Opening '$1' on line '$2' column '$3' with Sublime Text"
+exit 0
