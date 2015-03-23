@@ -1,0 +1,10 @@
+////Mark the Center - Cluster Creator
+
+//Select an edge and run
+
+global proc CMC() {
+SelectEdgeLoop;
+ConvertSelectionToVertices;hilite;	
+selectType -ocm -alc false;selectType -ocm -polymeshVertex true;
+newCluster " -envelope 1";
+}

@@ -1,0 +1,20 @@
+string $selCtrl[] = `ls -sl`;
+string $joints[] = `ls -sl -type joint`;
+int $selSize = size($selCtrl);
+
+for ($i = 0; $i < $selSize; ++$i)
+{
+    // Copy rotation into joint orient
+    float $srcRX = `getAttr ($selCtrl[$i] + ".rx")`;
+    float $srcRY = `getAttr ($selCtrl[$i] + ".ry")`;
+    float $srcRZ = `getAttr ($selCtrl[$i] + ".rz")`;
+    
+    setAttr ($joints[$i] + ".jox") $srcRX;
+    setAttr ($joints[$i] + ".joy") $srcRY;
+    setAttr ($joints[$i] + ".joz") $srcRZ;
+    
+    // Zero out rotation
+    setAttr ($selCtrl[$i] + ".rx") 0;
+    setAttr ($selCtrl[$i] + ".ry") 0;
+    setAttr ($selCtrl[$i] + ".rz") 0;
+};
