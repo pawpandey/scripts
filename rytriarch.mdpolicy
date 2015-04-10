@@ -2,14 +2,19 @@
 <PolicySet name="rytriarch.mdpolicy">
   <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
-    <AnonymousMethodBraceStyle>DoNotChange</AnonymousMethodBraceStyle>
+    <IndentSwitchBody>True</IndentSwitchBody>
+    <IndentCaseBody>False</IndentCaseBody>
+    <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
     <PropertyBraceStyle>DoNotChange</PropertyBraceStyle>
     <PropertyGetBraceStyle>DoNotChange</PropertyGetBraceStyle>
     <PropertySetBraceStyle>DoNotChange</PropertySetBraceStyle>
-    <EventBraceStyle>DoNotChange</EventBraceStyle>
+    <EventBraceStyle>NextLine</EventBraceStyle>
     <EventAddBraceStyle>DoNotChange</EventAddBraceStyle>
     <EventRemoveBraceStyle>DoNotChange</EventRemoveBraceStyle>
-    <StatementBraceStyle>DoNotChange</StatementBraceStyle>
+    <StatementBraceStyle>NextLine</StatementBraceStyle>
+    <ElseNewLinePlacement>NewLine</ElseNewLinePlacement>
+    <CatchNewLinePlacement>NewLine</CatchNewLinePlacement>
+    <FinallyNewLinePlacement>NewLine</FinallyNewLinePlacement>
     <BeforeMethodDeclarationParentheses>False</BeforeMethodDeclarationParentheses>
     <BeforeMethodCallParentheses>False</BeforeMethodCallParentheses>
     <BeforeConstructorDeclarationParentheses>False</BeforeConstructorDeclarationParentheses>
@@ -17,10 +22,16 @@
     <BeforeDelegateDeclarationParentheses>False</BeforeDelegateDeclarationParentheses>
     <NewParentheses>False</NewParentheses>
     <SpacesBeforeBrackets>False</SpacesBeforeBrackets>
-    <AlignToFirstMethodDeclarationParameter>False</AlignToFirstMethodDeclarationParameter>
-    <AlignToFirstIndexerDeclarationParameter>False</AlignToFirstIndexerDeclarationParameter>
   </CSharpFormattingPolicy>
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
     <FileWidth>120</FileWidth>
   </TextStylePolicy>
+  <StandardHeader>
+    <Text />
+    <IncludeInNewFiles>True</IncludeInNewFiles>
+  </StandardHeader>
+  <DotNetNamingPolicy>
+    <DirectoryNamespaceAssociation>None</DirectoryNamespaceAssociation>
+    <ResourceNamePolicy>FileFormatDefault</ResourceNamePolicy>
+  </DotNetNamingPolicy>
 </PolicySet>
