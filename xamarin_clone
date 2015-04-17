@@ -1,0 +1,2 @@
+#!/bin/sh
+/Applications/"Xamarin Studio.app"/Contents/MacOS/XamarinStudio ; exit;

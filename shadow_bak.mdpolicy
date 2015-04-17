@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolicySet name="shadow_bak.mdpolicy">
+  <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
+  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
+    <FileWidth>120</FileWidth>
+    <TabsToSpaces>False</TabsToSpaces>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
+</PolicySet>
