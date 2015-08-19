@@ -6,4 +6,4 @@
 
 cp -r ~/shadow_2/ ~/Desktop/shadow-no-units
 rm -rf ~/Desktop/shadow-no-units/Assets/Resources/units
-cp -r ~/shadow_2/Assets/Resources/units/scarab ~/Desktop/shadow-no-units/Assets/Resources/units
+cp -r ~/shadow_2/Assets/Resources/units/scarab ~/Desktop/shadow-no-units/Assets/Resources/units/scarab
