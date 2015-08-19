@@ -1,0 +1,2 @@
+#!/bin/sh
+/Applications/sqlitebrowser.app/Contents/MacOS/sqlitebrowser ; exit;

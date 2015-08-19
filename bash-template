@@ -1,0 +1,7 @@
+#!/bin/sh
+# bash-template.sh
+# Sentence describing the script
+
+(set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
+
+# ...
