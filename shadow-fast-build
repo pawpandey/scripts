@@ -4,6 +4,10 @@
 
 (set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
 
-cp -r ~/shadow_2/ ~/Desktop/shadow-no-units
-rm -rf ~/Desktop/shadow-no-units/Assets/Resources/units
-cp -r ~/shadow_2/Assets/Resources/units/scarab ~/Desktop/shadow-no-units/Assets/Resources/units/scarab
+sourcedir="/Users/Blake/shadow_2"
+targetdir="/Users/Blake/Desktop/shadow-no-units"
+
+cp -r $sourcedir $targetdir
+rm -rf $targetdir/Assets/Resources/units/
+mkdir $targetdir/Assets/Resources/units
+cp -r $sourcedir/Assets/Resources/units/scarab $targetdir/Assets/Resources/units/scarab
