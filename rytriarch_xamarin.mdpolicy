@@ -4,7 +4,7 @@
     <FileWidth>120</FileWidth>
     <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
-  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+  <CSharpFormattingPolicy inheritsSet="VisualStudio" inheritsScope="text/x-csharp" scope="text/x-csharp">
     <IndentSwitchBody>True</IndentSwitchBody>
     <IndentCaseBody>False</IndentCaseBody>
     <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
