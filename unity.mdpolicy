@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PolicySet name="unity_style">
+<PolicySet name="unity">
   <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
     <FileWidth>120</FileWidth>
     <EolMarker>Unix</EolMarker>
