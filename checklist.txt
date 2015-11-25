@@ -1,12 +1,32 @@
-- PS-6079 Steps missing from HQ:
-    - Date: Thu, Nov 19, 2015  5:56:45 PM
-    - Description:
-        - tutorial_08_dialog_010 does not play
-        - tutorial_10_dialog_020 does not play
-    - These issues are fixed, needs other onboarding issues fixed before moving on
+Bug    PS-5569 [Onboarding][Squad Slot Tutorial] Tap arrow appears briefly, then disappears
+Bug    PS-6293 [Onboarding] Sometimes, the first enemy unit deploys too soon
+Bug    PS-6322 Squad damage tutorial has an arrow that points at nothing
+Bug    PS-6224 [Tech Tutorial] The unit 'Upgrading' panel displays over the empty 'Tech Slot' during Tech tutorial.
+Bug    PS-6177 [Hangar][Squad] The second squad button needs to be tapped twice for it to respond when it is first unlocked.
+Bug    PS-6134 [Onboarding][Rank Up] RANK button is not highlighted during the rank up tutorial
+Task   PS-6080 Turn off Chat during Onboarding
+Bug    PS-6099 [Onboarding][Tech] EQUIP button is overlapped by dialogue panel
+Bug    PS-6102 [Onboarding][Tech] Player instructed to tap a button that does not exist
+Bug    PS-6058 [Onboarding][Level Up Tutorial] Finger animation points at the wrong area during Upgrade Tutorial.
+Bug    PS-5773 [Onboarding] Leveling material tutorial does not trigger as intended
+Bug    PS-3298 [Splash Screen] New profile, flicker issue upon pressing the PLAY button for the first time
+Bug    PS-5598 [Quests] Selecting GO for the quest, 'Equip a Tech', takes player to the Machine Shop
 
-- PS-6143 Level up tutorial can trigger after player has already leveled up a unit
-    - Date: Thu, Nov 19, 2015  5:58:22 PM
-    - Description: If player levels up a unit, before triggering the level up tutorial - then the level up tutorial should be consider completed and should never appear.
+ Onboarding arrows to no longer use string names
+ Gacha tutorial to have scrolling fixed
 
+ Task   PS-5344 [Onboarding] Change arrows to texted arrows...
+ 
+ Task   PS-6269 Optimize narrators
 
+ Bug    PS-5544 [onboarding] Separate 'squadSelectSet' into pvp and campaign versions
+ Bug    PS-3163 Pvp screen contents tutorial
+ 
+ 
+ Bug    PS-5404 Clean up GoToSet/WaitForSet in Onboarding
+ Bug    PS-5403 Converge the two GoToSet functions
+ Bug    PS-5314 Check for duplicate step names when marking analytics
+ 
+ Bug    PS-5264 One frame pops
+
+ PS-6335 Fix the requirements/fulfillments for onboarding steps

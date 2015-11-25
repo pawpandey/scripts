@@ -1,0 +1,17 @@
+Fri, Nov 20, 2015  6:09:24 PM
+- Manufacturing step hangs:
+    - Trace: Step4.cs 92
+    - Trace: Step4.cs 128
+    - What does a fresh player need in order to do manufacturing tutorial?
+        - Mantis blueprint
+        - Mantis resources
+        - Step4 uncompleted
+
+Fri, Nov 20, 2015  6:09:24 PM
+- Debug Menu Manager leaks the category window
+
+Sat, Nov 21, 2015  4:42:28 PM
+PS-6120 [Onboarding] The user is taken back to HQ after manufacturing a unit during onboarding. Blake 
+PS-6129 [Onboarding] [Machine Shop] Missing instructions when entering the Machine Shop.    Blake Triana    David Randolph  High
+PS-6159 [Onboarding][GACHA] The bonus container header is overlapped by the top UI bar  Blake Triana    Misha Sawangwan High
+
