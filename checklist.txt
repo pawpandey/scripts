@@ -1,7 +1,14 @@
-Bug    PS-5569 [Onboarding][Squad Slot Tutorial] Tap arrow appears briefly, then disappears
-Bug    PS-6293 [Onboarding] Sometimes, the first enemy unit deploys too soon
-Bug    PS-6322 Squad damage tutorial has an arrow that points at nothing
 Bug    PS-6224 [Tech Tutorial] The unit 'Upgrading' panel displays over the empty 'Tech Slot' during Tech tutorial.
+    -Tech tutorial fast unlock
+        -Requires:
+            -Hangar lv 3
+            -Step 24 uncomplete
+            -Active squad has a unit
+            -Player is level > 6
+            -Player's tech count > 1
+            -Funnel is complete
+    -Make sure that level up buildings is not broken by this change
+
 Bug    PS-6177 [Hangar][Squad] The second squad button needs to be tapped twice for it to respond when it is first unlocked.
 Bug    PS-6134 [Onboarding][Rank Up] RANK button is not highlighted during the rank up tutorial
 Task   PS-6080 Turn off Chat during Onboarding
