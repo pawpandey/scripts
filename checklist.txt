@@ -1,39 +1,41 @@
-Bug    PS-6224 [Tech Tutorial] The unit 'Upgrading' panel displays over the empty 'Tech Slot' during Tech tutorial.
-    -Tech tutorial fast unlock
-        -Requires:
-            -Hangar lv 3
-            -Step 24 uncomplete
-            -Active squad has a unit
-            -Player is level > 6
-            -Player's tech count > 1
-            -Funnel is complete
-    -Make sure that level up buildings is not broken by this change
-
-Bug    PS-6177 [Hangar][Squad] The second squad button needs to be tapped twice for it to respond when it is first unlocked.
-Bug    PS-6134 [Onboarding][Rank Up] RANK button is not highlighted during the rank up tutorial
-Task   PS-6080 Turn off Chat during Onboarding
-Bug    PS-6099 [Onboarding][Tech] EQUIP button is overlapped by dialogue panel
-Bug    PS-6102 [Onboarding][Tech] Player instructed to tap a button that does not exist
-Bug    PS-6058 [Onboarding][Level Up Tutorial] Finger animation points at the wrong area during Upgrade Tutorial.
+Bug    PS-6437 [Mission Briefing] [Tutorial] The back/home tab is inoperable after finishing the tutorial for unit assignments.
+bug    PS-6347 [Hangar] Put NPC Commanders on the right side of the Hangar.
+Bug    PS-6428 [Hangar] The 'Rank Up' tutorial does NOT update dynamically when player changes unit.
 Bug    PS-5773 [Onboarding] Leveling material tutorial does not trigger as intended
 Bug    PS-3298 [Splash Screen] New profile, flicker issue upon pressing the PLAY button for the first time
-Bug    PS-5598 [Quests] Selecting GO for the quest, 'Equip a Tech', takes player to the Machine Shop
 
- Onboarding arrows to no longer use string names
- Gacha tutorial to have scrolling fixed
+Onboarding arrows to no longer use string names
+Gacha tutorial to have scrolling fixed
 
- Task   PS-5344 [Onboarding] Change arrows to texted arrows...
+Task   PS-5344 [Onboarding] Change arrows to texted arrows...
  
- Task   PS-6269 Optimize narrators
+Task   PS-6269 Optimize narrators
 
- Bug    PS-5544 [onboarding] Separate 'squadSelectSet' into pvp and campaign versions
- Bug    PS-3163 Pvp screen contents tutorial
+Bug    PS-5544 [onboarding] Separate 'squadSelectSet' into pvp and campaign versions
+Bug    PS-3163 Pvp screen contents tutorial
  
  
- Bug    PS-5404 Clean up GoToSet/WaitForSet in Onboarding
- Bug    PS-5403 Converge the two GoToSet functions
- Bug    PS-5314 Check for duplicate step names when marking analytics
+Bug    PS-5404 Clean up GoToSet/WaitForSet in Onboarding
+Bug    PS-5403 Converge the two GoToSet functions
+Bug    PS-5314 Check for duplicate step names when marking analytics
  
- Bug    PS-5264 One frame pops
+Bug    PS-5264 One frame pops
 
- PS-6335 Fix the requirements/fulfillments for onboarding steps
+PS-6335 Fix the requirements/fulfillments for onboarding steps
+
+Add onboarding step stack trace logging for device
+Add onboarding step check logging for device
+
+-There's a problem with the coupling of ShowArrow: it's hard to specify an arrow pointing at a target and yielding for a button press on a different object.
+    -Arrows should block input only if yielded on
+    -Desired syntax:
+        ShowArrow("UpgradeButton");
+        yield return WaitForButton("UpgradeButtonFrame");
+
+Machine shop prompt appeared with the rate app popup
+
+Tech tutorial prompts on frame and not button
+
+
+
+

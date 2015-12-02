@@ -1,3 +1,32 @@
+Tue, Dec  1, 2015  8:53:06 PM
+Task   PS-6080 Turn off Chat during Onboarding
+
+Tue, Dec  1, 2015  7:55:28 PM
+Temp back buttons need to be removed from sets, and use the canonic StatsBar button instead
+    -Search for prefabs looking at the homebutton sprite guid
+    -The RateAppPopup
+    -Remove IBackButtonTemp
+    -Remove BackButon game objects
+
+Tue, Dec  1, 2015  5:07:07 PM
+PS-6383 [Mission Briefing][Tutorial] Repair Tutorial arrow overlaps tutorial text.
+-Repair tutorial requires:
+    -Squad damaged
+    -Funnel complete
+    -31 uncomplete
+
+Mon, Nov 30, 2015  6:11:52 PM
+Bug    PS-6224 [Tech Tutorial] The unit 'Upgrading' panel displays over the empty 'Tech Slot' during Tech tutorial.
+    -Tech tutorial fast unlock
+        -Requires:
+            -Hangar lv 3
+            -Step 24 uncomplete
+            -Active squad has a unit
+            -Player is level > 6
+            -Player's tech count > 1
+            -Funnel is complete
+    -Make sure that level up buildings is not broken by this change
+
 Wed, Nov 25, 2015  3:24:51 PM
 Bug    PS-6322 Squad damage tutorial has an arrow that points at nothing
     -Repair step is 31
