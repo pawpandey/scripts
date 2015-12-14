@@ -1,0 +1,30 @@
+// Original code: Delano Athias, Copyright Digital Tutors 2014
+
+//Query selected joints...
+string $selJnt[] = `ls -sl -type joint`;
+
+//'For' loop - for all joints in selection, run the following commands...
+for ($allJnts in $selJnt)
+{    
+    //Search for Aim Constraints on selected joints...
+    string $get_aimCns_selJnt[] = `listRelatives -type aimConstraint $allJnts`; 
+    
+    //Remove existing Aim Constraints on selected joints...
+    if (`objExists $get_aimCns_selJnt[0]`)
+    {
+        delete $get_aimCns_selJnt[0];
+    }
+    
+    //Query all rotation channels of selected joints...
+    float $get_selJnt_rot[] = `xform -q -ro $allJnts`;
+    
+    //Set all joint orient channels to the rotate values of selected joints...
+    setAttr ($allJnts + ".jointOrientX") $get_selJnt_rot[0];
+    setAttr ($allJnts + ".jointOrientY") $get_selJnt_rot[1];
+    setAttr ($allJnts + ".jointOrientZ") $get_selJnt_rot[2];
+    
+    //Zero the rotate channels of all joints.
+    setAttr ($allJnts + ".rotateX") 0;
+    setAttr ($allJnts + ".rotateY") 0;
+    setAttr ($allJnts + ".rotateZ") 0;
+}
