@@ -12,7 +12,6 @@
         - Does the unit actually require a ptoken when we need to rank up?
 - Bug    PS-6453 [Onboarding] Equip-a-unit tutorial and upgrade-a-unit tuorial trigger at the same time
 - Bug    PS-6437 [Mission Briefing] [Tutorial] The back/home tab is inoperable after finishing the tutorial for unit assignments.
-- Bug    PS-6437 [Mission Briefing] [Tutorial] The back/home tab is inoperable after finishing the tutorial for unit assignments.
 - Bug    PS-6347 [Hangar] Put NPC Commanders on the right side of the Hangar.
 - Bug    PS-6428 [Hangar] The 'Rank Up' tutorial does NOT update dynamically when player changes unit.
 - Bug    PS-5773 [Onboarding] Leveling material tutorial does not trigger as intended
