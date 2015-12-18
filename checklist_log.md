@@ -1,3 +1,6 @@
+### Fri, Dec 18, 2015 11:37:29 AM
+- Bug    PS-6955 Crashlytics iOS 3.6: FindPartPopup
+
 ### Wed, Dec 16, 2015  9:21:44 AM
 - Bug    PS-6471 [Onboarding][Unit Manager][Rank Up] Rank up tutorial does not trigger
     - How to trigger rank up tutorial:

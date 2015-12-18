@@ -1,7 +1,5 @@
-- Bug    PS-6955 Crashlytics iOS 3.6: FindPartPopup
-- Bug    PS-6977 [Onboarding] For second tile, title appears as 'Mission:' (no name)
-- Bug    PS-6967 [Onboarding][Machine Shop] 'Machine Shop' alert panel can appear after initial onboarding
 - PS-6924 [Onboarding] Strike Unit Manufacturing from the onboarding.
+- Bug    PS-6977 [Onboarding] For second tile, title appears as 'Mission:' (no name)
 - Task   PS-5344 [Onboarding] Change arrows to texted arrows...
 - Pointing fingers not always show in HQ
 - Pointing finger should not become motionless during animation while player scrolls in HQ
