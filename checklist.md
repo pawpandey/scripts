@@ -1,8 +1,12 @@
+- Bug    PS-6955 Crashlytics iOS 3.6: FindPartPopup
+- Bug    PS-6977 [Onboarding] For second tile, title appears as 'Mission:' (no name)
+- Bug    PS-6967 [Onboarding][Machine Shop] 'Machine Shop' alert panel can appear after initial onboarding
+- PS-6924 [Onboarding] Strike Unit Manufacturing from the onboarding.
 - Task   PS-5344 [Onboarding] Change arrows to texted arrows...
 - Pointing fingers not always show in HQ
 - Pointing finger should not become motionless during animation while player scrolls in HQ
+- Task   PS-6269 Optimize narrators    
 - PS-6558 [Unit Manager] Add Magnifier to Unit Manager
     - Emulate gacha functionality
     - Wire up controls, wait for UI for final design
-- Task   PS-6269 Optimize narrators    
 - Add center justify for ScrollToChild
