@@ -1,3 +1,7 @@
+### Fri, Dec 18, 2015 12:49:47 PM
+- PS-6924 [Onboarding] Strike Unit Manufacturing from the onboarding.
+- Bug    PS-6977 [Onboarding] For second tile, title appears as 'Mission:' (no name)
+
 ### Fri, Dec 18, 2015 11:37:29 AM
 - Bug    PS-6955 Crashlytics iOS 3.6: FindPartPopup
 
