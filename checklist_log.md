@@ -1,3 +1,6 @@
+### Mon, Dec 21, 2015 12:09:55 PM
+- Task   PS-6269 Optimize narrators
+
 ### Fri, Dec 18, 2015 12:49:47 PM
 - PS-6924 [Onboarding] Strike Unit Manufacturing from the onboarding.
 - Bug    PS-6977 [Onboarding] For second tile, title appears as 'Mission:' (no name)
