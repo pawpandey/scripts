@@ -1,3 +1,7 @@
+### Mon, Jan  4, 2016  2:22:06 PM
+- PS-6558 [Unit Manager] Add Magnifier to Unit Manager
+    - Emulate gacha functionality
+
 ### Mon, Dec 21, 2015 12:09:55 PM
 - Task   PS-6269 Optimize narrators
 
