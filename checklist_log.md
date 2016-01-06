@@ -1,3 +1,6 @@
+### Wed, Jan  6, 2016 10:15:04 AM
+- Wire up unit preview controls
+
 ### Mon, Jan  4, 2016  2:22:06 PM
 - PS-6558 [Unit Manager] Add Magnifier to Unit Manager
     - Emulate gacha functionality
