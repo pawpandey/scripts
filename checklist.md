@@ -7,3 +7,7 @@
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
 - Separate GachaSet/UnitPreviewUI into its own prefab
+- Old user tool for Mike Stiles
+- Make sure bundle downloading at funnel end visually appears how you would expect it to
+- Flicking the UnitPreview has some issues when lifting your finger and touching down again
+- Onboarding Step 12 got stuck on 16 after Andrew let the game idle -> disconnect
