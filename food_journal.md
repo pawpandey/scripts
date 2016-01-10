@@ -5,6 +5,7 @@
 - Small plate of rice and beans
 - Jarritos
 - Boba tea, 25% sweetened, tapioca
+- Packaged mini-waffle ("Liege Waffle") with chocolate drizzle
 
 ### Fri, Jan 8, 2016
 - Chicken pho
