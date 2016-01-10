@@ -5,3 +5,14 @@
 - Small plate of rice and beans
 - Jarritos
 - Boba tea, 25% sweetened, tapioca
+
+### Fri, Jan 8, 2016
+- Chicken pho
+    - Pho broth
+    - Chicken
+    - Beansprout
+    - Basil
+    - Green onion
+    - Jalapeno
+- Jasmine tea
+- Matcha green tea
