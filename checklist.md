@@ -1,13 +1,13 @@
-- PS-6888 [IAP] Please enable the ability to purchase an IAP in one tap while look at the "Details" button
-- PS-7022 [MAIL] Please enable a "goto" function so we can direct a player to major places in the game through the mail system
-- Unit idle needs to not play for vehicles during unit preview
-- Task   PS-5344 [Onboarding] Change arrows to texted arrows...
-- Pointing fingers not always show in HQ
-- Pointing finger should not become motionless during animation while player scrolls in HQ
+- Change arrows to texted arrows
+- Pointing fingers not always show in HQ    
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
 - Separate GachaSet/UnitPreviewUI into its own prefab
-- Old user tool for Mike Stiles
+- PS-6844 [Onboarding] An onboarding step re-appears after server deployment.
+- VerticalLayoutGroup instantly set on the same frame
 - Make sure bundle downloading at funnel end visually appears how you would expect it to
-- Flicking the UnitPreview has some issues when lifting your finger and touching down again
 - Onboarding Step 12 got stuck on 16 after Andrew let the game idle -> disconnect
+- Rank up tutorial has a frame pop when you select the unit to sacrifice, looks bad
+- Unit idle needs to not play for vehicles during unit preview
+- Old user tool for Mike Stiles
+- Long touch for debug menu

@@ -1,12 +1,58 @@
+### Wed, Jan 13, 2016
+- Blackberry Izze
+- Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
+### Tue, Jan 12, 2016
+- Ramen
+    - Pork broth
+    - Pork slices
+    - Noodles
+    - Mushrooms
+    - Green onion
+    - Boiled egg
+- Chicken pho
+    - Pho broth
+    - Chicken
+    - Beansprout
+    - Basil
+    - Green onion
+    - Jalapeno
+- Jasmine tea
+- Ginger ale
+- Blackberry Izze
+- Orange Izze
+- Small pickle crinkle cut potato chips
+- Cocnout water x2
+### Mon, Jan 11, 2016
+- Vietnamese chicken fried rice
+    - Chicken
+    - Rice
+    - Egg
+    - Carrot
+    - Green onion
+    - Peas
+- Ginger ale
+- Chex mex honey cereal 1x bowl
+- Blackberry Izze
+- Orange Izze x2
+- Half of a blueberry scone
 ### Sun, Jan 10, 2016
-
+- Thai style fried rice
+    - Tomato
+    - Chicken
+    - Egg
+    - Rice
+    - Other vegetables/herbs/spices
+- Lightly sweetened thai iced tea
+- Grapefruit juice, 2x glasses
+- Honey chex mex cereal 4x bowls
+- Starbucks caramel/cheddar popcorn bag
+- Starbucks chocolate/caramel bites
 ### Sat, Jan 9, 2016
 - Nachos with ground beef, monterrey jack cheese
 - Small plate of rice and beans
 - Jarritos
 - Boba tea, 25% sweetened, tapioca
 - Packaged mini-waffle ("Liege Waffle") with chocolate drizzle
-
 ### Fri, Jan 8, 2016
 - Chicken pho
     - Pho broth

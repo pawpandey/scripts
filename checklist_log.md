@@ -1,3 +1,27 @@
+### Tue, Jan 12, 2016  2:56:31 PM
+- Flicking the UnitPreview has some issues when lifting your finger and touching down again
+
+### Mon, Jan 11, 2016  6:19:34 PM
+- Pointing finger should not become motionless during animation while player scrolls in HQ
+    - Issues where disconnecting starts the coroutines incorrectly
+- Adjust unit preview controls to be less sensitive
+
+### Mon, Jan 11, 2016  4:10:03 PM
+- Squad tween animation - remove tweening rectangle
+- Fix input problem with scroll rects on Unity 5.3
+- Do a once-over pass of anything that uses touch input module in our code
+
+### Mon, Jan 11, 2016 12:06:12 PM
+- Update Player.Deck.OnUnitsUpdated to not crash when a fake unit is encountered
+    - Trace: http://hastebin.com/wexanigeka.tex
+- PS-7055 [Tutorial] Revamp Ranking tutorial to be forced, free
+    - Step 30 breaks if you just upgraded the unit to 15
+    - PS-7152 [Unit Manager] [Rank] Progression is stopped when attempting to Rank Up a unit.
+
+### Fri, Jan  8, 2016  4:54:15 PM
+- PS-6888 [IAP] Please enable the ability to purchase an IAP in one tap while look at the "Details" button
+- PS-7022 [MAIL] Please enable a "goto" function so we can direct a player to major places in the game through the mail system
+
 ### Wed, Jan  6, 2016 10:15:04 AM
 - Wire up unit preview controls
 
