@@ -1,6 +1,7 @@
 ### Wed, Jan 13, 2016
 - Blackberry Izze
 - Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
+
 ### Tue, Jan 12, 2016
 - Ramen
     - Pork broth
@@ -22,6 +23,7 @@
 - Orange Izze
 - Small pickle crinkle cut potato chips
 - Cocnout water x2
+
 ### Mon, Jan 11, 2016
 - Vietnamese chicken fried rice
     - Chicken
@@ -36,6 +38,7 @@
 - Orange Izze x2
 - Half of a blueberry scone
 - Cocnout water
+
 ### Sun, Jan 10, 2016
 - Thai style fried rice
     - Tomato
@@ -48,12 +51,14 @@
 - Honey chex mex cereal 4x bowls
 - Starbucks caramel/cheddar popcorn bag
 - Starbucks chocolate/caramel bites
+
 ### Sat, Jan 9, 2016
 - Nachos with ground beef, monterrey jack cheese
 - Small plate of rice and beans
 - Jarritos
 - Boba tea, 25% sweetened, tapioca
 - Packaged mini-waffle ("Liege Waffle") with chocolate drizzle
+
 ### Fri, Jan 8, 2016
 - Chicken pho
     - Pho broth
