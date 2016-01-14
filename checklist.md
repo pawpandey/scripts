@@ -1,6 +1,8 @@
 # Checklist
 
-- PS-6844 [Onboarding] An onboarding step re-appears after server deployment.
+- PS-6903 [mail] Please enable us to do mail localization over the server
+- PS-7036 Change Loc.Get to accept and emum
+- Add a fading animation for the onboarding narrator
 - Pointing fingers not always show in HQ    
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
