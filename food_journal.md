@@ -1,5 +1,7 @@
 ### Wed, Jan 13, 2016
 - Chana Masala
+    - Garbanzo beans
+    - Curry
 - Jeera Rice
 - Naan
 - Ginger ale
