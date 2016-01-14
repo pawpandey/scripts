@@ -3,6 +3,7 @@
     - Garbanzo beans
     - Curry
 - Jeera Rice
+    - Peas
 - Naan
 - Ginger ale
 - Chai tea
