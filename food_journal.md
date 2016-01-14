@@ -1,6 +1,7 @@
 ### Wed, Jan 13, 2016
 - Blackberry Izze
 - Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
+- Banana
 
 ### Tue, Jan 12, 2016
 - Ramen
@@ -23,6 +24,7 @@
 - Orange Izze
 - Small pickle crinkle cut potato chips
 - Cocnout water x2
+- Banana
 
 ### Mon, Jan 11, 2016
 - Vietnamese chicken fried rice
@@ -38,6 +40,7 @@
 - Orange Izze x2
 - Half of a blueberry scone
 - Cocnout water
+- Banana
 
 ### Sun, Jan 10, 2016
 - Thai style fried rice

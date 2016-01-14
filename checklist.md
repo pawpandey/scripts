@@ -1,11 +1,10 @@
 # Checklist
 
-- Change arrows to texted arrows
+- PS-6844 [Onboarding] An onboarding step re-appears after server deployment.
 - Pointing fingers not always show in HQ    
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
 - Separate GachaSet/UnitPreviewUI into its own prefab
-- PS-6844 [Onboarding] An onboarding step re-appears after server deployment.
 - VerticalLayoutGroup instantly set on the same frame
 - Make sure bundle downloading at funnel end visually appears how you would expect it to
 - Onboarding Step 12 got stuck on 16 after Andrew let the game idle -> disconnect
@@ -15,6 +14,9 @@
 - Long touch for debug menu
 
 # Checklist Log
+
+### Wed, Jan 13, 2016  4:43:08 PM
+- Change arrows to texted arrows
 
 ### Tue, Jan 12, 2016  2:56:31 PM
 - Flicking the UnitPreview has some issues when lifting your finger and touching down again
