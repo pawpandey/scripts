@@ -1,4 +1,12 @@
 ### Wed, Jan 13, 2016
+- Chana Masala
+    - Garbanzo beans
+    - Curry
+- Jeera Rice
+    - Peas
+- Naan
+- Ginger ale
+- Chai tea
 - Blackberry Izze
 - Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
 - Banana
