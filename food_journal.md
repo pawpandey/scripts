@@ -2,6 +2,15 @@
 - Blackberry Izze
 - Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
 - Banana
+- Chicken pho
+   - Pho broth
+    - Chicken
+    - Beansprout
+    - Basil
+    - Green onion
+    - Jalapeno
+- Lucy's cookies (http://www.amazon.com/Lucys-Chocolate-Cookies-Ounce-Packages/dp/B002AUCELQ) x2
+- Orange Izze x2
 
 ### Tue, Jan 12, 2016
 - Ramen
