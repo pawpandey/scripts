@@ -9,6 +9,7 @@
     - Basil
     - Green onion
     - Jalapeno
+- Jasmine tea
 - Lucy's cookies (http://www.amazon.com/Lucys-Chocolate-Cookies-Ounce-Packages/dp/B002AUCELQ) x2
 - Orange Izze x2
 
