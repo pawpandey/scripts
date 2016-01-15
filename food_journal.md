@@ -1,3 +1,28 @@
+### Fri, Jan 14, 2016
+- Vietnamese chicken fried rice
+    - Chicken
+    - Rice
+    - Egg
+    - Carrot
+    - Green onion
+    - Peas
+- Ginger ale
+- Jasmine tea
+
+### Thu, Jan 13, 2016
+- Mole poblano burrito
+- Tortilla chips
+- Beef pho
+    - Pho broth
+    - Beef
+    - Beansprout
+    - Basil
+    - Green onion
+    - Jalapeno
+- Blackberry Izze
+- Orange Izze
+- Coconut water
+
 ### Wed, Jan 13, 2016
 - Chana Masala
     - Garbanzo beans
@@ -11,13 +36,13 @@
 - Ramen leftovers from yesterday (1/4 of broth, small noodles leftover)
 - Banana
 - Chicken pho
-   - Pho broth
+    - Pho broth
     - Chicken
     - Beansprout
     - Basil
     - Green onion
     - Jalapeno
-- Jasmine tea
+    - Jasmine tea
 - Lucy's cookies (http://www.amazon.com/Lucys-Chocolate-Cookies-Ounce-Packages/dp/B002AUCELQ) x2
 - Orange Izze x2
 

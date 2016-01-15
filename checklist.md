@@ -1,8 +1,19 @@
 # Checklist
 
-- PS-6903 [mail] Please enable us to do mail localization over the server
+- Translator for Andrew is broken
+    - Download mail_items CSV from IH to /CSV
+        - Downloading CSV directly from IH is broke
+            - Correcting this would fix the problem
+        - Downloading CSV from gdocs is fine
+    - Translate /CSV/Design/mail_items CSV into three output CSVs
+        - Asset processor does not choke, just repeats bad input
+            - If the input is "good", does it work?
+        - Output is broken
 - PS-7036 Change Loc.Get to accept and emum
+- Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
 - Add a fading animation for the onboarding narrator
+- Add shadow to Onboarding texted arrow
+- Change moving look at arrow to use new arrow treatment
 - Pointing fingers not always show in HQ    
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
@@ -16,6 +27,10 @@
 - Long touch for debug menu
 
 # Checklist Log
+
+### Thu, Jan 14, 2016 6:34:01 PM
+- PS-6903 [mail] Please enable us to do mail localization over the server
+    - Tell Bethany we cannot use this system for older versions
 
 ### Wed, Jan 13, 2016  4:43:08 PM
 - Change arrows to texted arrows
