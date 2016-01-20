@@ -1,5 +1,4 @@
 #!/bin/sh
-
 (set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
 
 hostname=s195330.gridserver.com
