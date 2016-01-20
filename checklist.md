@@ -1,4 +1,5 @@
 # Checklist
+
 - Andrew can't commit CSVs to SVN because of bad line endings
 - Profile alternate loc enumeration methods
     - Be sure to profile with removed externed strings
