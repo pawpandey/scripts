@@ -1,5 +1,11 @@
 #!/bin/sh
 (set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
 
-cd ~/scripts
-git add . -A && git commit -m "Scripts update" && git push
+
+if [ -z "$1" ]
+    then
+        echo "Enter a description for this change"
+    else
+        cd ~/scripts
+        git add . -A && git commit -m "$1" && git push
+fi
