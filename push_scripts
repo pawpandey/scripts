@@ -1,7 +1,7 @@
 #!/bin/sh
 (set -o igncr) 2>/dev/null && set -o igncr; # correct line endings on Windows environments
 
-
+# Commits to git with the passed in arg as the change description
 if [ -z "$1" ]
     then
         echo "Enter a description for this change"
