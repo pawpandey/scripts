@@ -8,6 +8,7 @@
     - Translate /CSV/Design/mail_items CSV into three output CSVs
         - Asset processor does not choke, just repeats bad input
             - If the input is "good", does it work?
+            - Translating after just editing /CSV file has strange output
         - Output is broken
 - PS-7036 Change Loc.Get to accept and emum
 - Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
