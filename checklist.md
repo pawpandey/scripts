@@ -12,6 +12,7 @@
         - Use reflection on enumerated values and regex the spreadsheet for invalid keys
 - PS-7036 Change Loc.Get to accept and emum
 - Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
+- Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
 - Add a fading animation for the onboarding narrator
 - Add shadow to Onboarding texted arrow
 - Change moving look at arrow to use new arrow treatment
