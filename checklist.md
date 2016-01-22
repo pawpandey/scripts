@@ -1,6 +1,5 @@
 # Checklist
 
-- Andrew can't commit CSVs to SVN because of bad line endings
 - Profile alternate loc enumeration methods
     - Be sure to profile with removed externed strings
     - Check metrics:
@@ -30,6 +29,9 @@
 - Long touch for debug menu
 
 # Checklist Log
+
+### Tue, Jan 20, 2016
+- Andrew can't commit CSVs to SVN because of bad line endings
 
 ### Mon, Jan 19, 2016
 - Translator for Andrew is broken
