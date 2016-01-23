@@ -27,6 +27,7 @@
 - Unit idle needs to not play for vehicles during unit preview
 - Old user tool for Mike Stiles
 - Long touch for debug menu
+- Fixed the character controller
 
 # Checklist Log
 
