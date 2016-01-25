@@ -10,6 +10,7 @@
         - Load Json from disk and have two dictionaries in memory
         - Use reflection on enumerated values and regex the spreadsheet for invalid keys
 - Multi-day soak tests for onboarding 
+- Support extra error checking for compiling LocEnum
 - PS-7036 Change Loc.Get to accept and emum
 - Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
 - Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
