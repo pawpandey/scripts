@@ -1,14 +1,6 @@
 # Checklist
 
 - Profile alternate loc enumeration methods
-    - Be sure to profile with removed externed strings
-    - Check metrics:
-        - Runtime memory usage
-        - Binary size difference
-        - Runtime performance overhead
-    - Methods:
-        - Load Json from disk and have two dictionaries in memory
-        - Use reflection on enumerated values and regex the spreadsheet for invalid keys
 - Multi-day soak tests for onboarding 
 - Support extra error checking for compiling LocEnum
 - PS-7036 Change Loc.Get to accept and emum
@@ -31,6 +23,16 @@
 - Fixed the character controller
 
 # Checklist Log
+
+### Mon, Jan 25, 2016
+- Be sure to profile with removed externed strings
+    - Check metrics:
+        - Runtime memory usage
+        - Binary size difference
+        - Runtime performance overhead
+    - Methods:
+        - Load Json from disk and have two dictionaries in memory
+        - Use reflection on enumerated values and regex the spreadsheet for invalid keys
 
 ### Tue, Jan 20, 2016
 - Andrew can't commit CSVs to SVN because of bad line endings
