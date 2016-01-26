@@ -1,6 +1,7 @@
 # Checklist
 
 - Use a Json bean for the localization enum
+- Level up popup / zone rewards should not appear during gacha fragment feature
 - Multi-day soak tests for onboarding 
 - Support extra error checking for compiling LocEnum
 - PS-7036 Change Loc.Get to accept and emum
@@ -20,6 +21,7 @@
 - Unit idle needs to not play for vehicles during unit preview
 - Old user tool for Mike Stiles
 - Long touch for debug menu
+- Step 36 should autocomplete for old users
 
 # Checklist Log
 
