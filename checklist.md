@@ -1,6 +1,6 @@
 # Checklist
 
-- Profile alternate loc enumeration methods
+- Use a Json bean for the localization enum
 - Multi-day soak tests for onboarding 
 - Support extra error checking for compiling LocEnum
 - PS-7036 Change Loc.Get to accept and emum
@@ -24,6 +24,7 @@
 # Checklist Log
 
 ### Mon, Jan 25, 2016
+- Profile alternate loc enumeration methods
 - Be sure to profile with removed externed strings
     - Check metrics:
         - Runtime memory usage
