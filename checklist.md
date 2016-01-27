@@ -1,6 +1,21 @@
 # Checklist
 
 - CampaignSet should not show rewards popups from within Gacha
+    - Adding the check seems to prevent the tiles from updating, why doesn't the routine resume when we head back to campaign?
+    - The animate rewards method does:
+        - Mission visual updates
+        - Mission tile state updates
+        - Onboarding check for the briefing room
+        - Level up handlers for the popup
+        - Zone reward handler
+        - Updates the campaign progress bar
+        - The reveal mission routine in CampaignMap
+            - Poofs
+            - Camera pans
+            - Fog refresh
+            - Tile updates
+            - Influence bars
+            - Narrator show
     - Get print for zone rewards
         - Level up rewards
             - CampaignSet.cs:209 // Batch set
@@ -8,6 +23,7 @@
         - Zone reward
             - CampaignMap.cs:188 // Open narrator for zone rewards
                 - CampaignMap.cs:184 // zoneIntro.HasValue
+            - CampaignSet.cs:273 // HandleZoneClearReward
 - Use a Json serialized class for the localization enum
 - Step 36 should autocomplete for old users
 - Multi-day soak tests for onboarding 
