@@ -1,29 +1,37 @@
 # Checklist
 
-- Use a Json bean for the localization enum
-- Level up popup / zone rewards should not appear during gacha fragment feature
+- CampaignSet should not show rewards popups from within Gacha
+    - Get print for zone rewards
+        - Level up rewards
+            - CampaignSet.cs:209 // Batch set
+            - PlayerRewards.cs:42 // Reward handler
+        - Zone reward
+            - CampaignMap.cs:188 // Open narrator for zone rewards
+                - CampaignMap.cs:184 // zoneIntro.HasValue
+- Use a Json serialized class for the localization enum
+- Step 36 should autocomplete for old users
 - Multi-day soak tests for onboarding 
 - Support extra error checking for compiling LocEnum
-- PS-7036 Change Loc.Get to accept and emum
 - Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
 - Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
-- Add a fading animation for the onboarding narrator
-- Add shadow to Onboarding texted arrow
 - Change moving look at arrow to use new arrow treatment
 - Pointing fingers not always show in HQ   
 - Separate GachaSet/RenderAreaShared into its own prefab
 - Separate GachaSet/GachaSetUI into its own prefab
 - Separate GachaSet/UnitPreviewUI into its own prefab
-- VerticalLayoutGroup instantly set on the same frame
 - Make sure bundle downloading at funnel end visually appears how you would expect it to
-- Onboarding Step 12 got stuck on 16 after Andrew let the game idle -> disconnect
-- Rank up tutorial has a frame pop when you select the unit to sacrifice, looks bad
 - Unit idle needs to not play for vehicles during unit preview
 - Old user tool for Mike Stiles
 - Long touch for debug menu
-- Step 36 should autocomplete for old users
 
 # Checklist Log
+
+### Wed, Jan 27, 2016 
+- Add a fading animation for the onboarding narrator
+- PS-7036 Change Loc.Get to accept and emum
+- Upgrade tutorial has visual appearance bug
+- Loc for the mission titles and descriptions are missing
+    - MissionInfoUI.cs line 186
 
 ### Mon, Jan 25, 2016
 - Profile alternate loc enumeration methods
