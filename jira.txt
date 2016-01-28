@@ -1,0 +1,9 @@
+// Gameplay
+project = PS AND resolution = Unresolved AND assignee is EMPTY AND labels in (Gameplay) ORDER BY priority DESC, updated DESC
+
+// UI
+project = PS AND resolution = Unresolved AND assignee is EMPTY AND labels in (UI) ORDER BY priority DESC, updated DESC
+
+// Gameplay & UI
+project = PS AND resolution = Unresolved AND assignee is EMPTY AND labels in (Gameplay, UI) ORDER BY priority DESC, updated DESC
+

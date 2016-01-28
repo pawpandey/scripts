@@ -24,6 +24,8 @@
             - CampaignMap.cs:188 // Open narrator for zone rewards
                 - CampaignMap.cs:184 // zoneIntro.HasValue
             - CampaignSet.cs:273 // HandleZoneClearReward
+- Why does adding the PopToSet with true fix the issue? 
+- Completed onboarding steps reappear on users while server data is deployed during their session
 - Use a Json serialized class for the localization enum
 - Step 36 should autocomplete for old users
 - Multi-day soak tests for onboarding 
@@ -39,6 +41,8 @@
 - Unit idle needs to not play for vehicles during unit preview
 - Old user tool for Mike Stiles
 - Long touch for debug menu
+- One frame pop on the resource generator tutorial
+- Merge GoToSet functions
 
 # Checklist Log
 
