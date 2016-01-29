@@ -1,5 +1,34 @@
 # Checklist
 
+- PS-7443 - Player can receive a metal storage levels are insufficient popup in PVP
+- PS-6095 - When collecting items from chests, no information is given
+- PS-7418
+    - NullReferenceException: StatsBar.RefreshStatsBarPlayerData
+- PS-7417 NullReferenceException: StatsBar.CheckForVisualEffects
+    - Ask Alberto
+- Completed onboarding steps reappear on users while server data is deployed during their session
+- Use a Json serialized class for the localization enum
+- Step 36 should autocomplete for old users
+- Multi-day soak tests for onboarding 
+- Support extra error checking for compiling LocEnum
+- Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
+- Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
+- Change moving look at arrow to use new arrow treatment
+- Pointing fingers not always show in HQ   
+- Separate GachaSet/RenderAreaShared into its own prefab
+- Separate GachaSet/GachaSetUI into its own prefab
+- Separate GachaSet/UnitPreviewUI into its own prefab
+- Make sure bundle downloading at funnel end visually appears how you would expect it to
+- Unit idle needs to not play for vehicles during unit preview
+- Old user tool for Mike Stiles
+- Long touch for debug menu
+- One frame pop on the resource generator tutorial
+- Merge GoToSet functions
+
+# Checklist Log
+
+### Thu, Jan 28, 2016
+
 - CampaignSet should not show rewards popups from within Gacha
     - Adding the check seems to prevent the tiles from updating, why doesn't the routine resume when we head back to campaign?
     - The animate rewards method does:
@@ -24,27 +53,6 @@
             - CampaignMap.cs:188 // Open narrator for zone rewards
                 - CampaignMap.cs:184 // zoneIntro.HasValue
             - CampaignSet.cs:273 // HandleZoneClearReward
-- Why does adding the PopToSet with true fix the issue? 
-- Completed onboarding steps reappear on users while server data is deployed during their session
-- Use a Json serialized class for the localization enum
-- Step 36 should autocomplete for old users
-- Multi-day soak tests for onboarding 
-- Support extra error checking for compiling LocEnum
-- Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
-- Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
-- Change moving look at arrow to use new arrow treatment
-- Pointing fingers not always show in HQ   
-- Separate GachaSet/RenderAreaShared into its own prefab
-- Separate GachaSet/GachaSetUI into its own prefab
-- Separate GachaSet/UnitPreviewUI into its own prefab
-- Make sure bundle downloading at funnel end visually appears how you would expect it to
-- Unit idle needs to not play for vehicles during unit preview
-- Old user tool for Mike Stiles
-- Long touch for debug menu
-- One frame pop on the resource generator tutorial
-- Merge GoToSet functions
-
-# Checklist Log
 
 ### Wed, Jan 27, 2016 
 - Add a fading animation for the onboarding narrator
