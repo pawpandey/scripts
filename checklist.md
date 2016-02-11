@@ -1,31 +1,36 @@
 # Checklist
 
-- PS-7443 - Player can receive a metal storage levels are insufficient popup in PVP
-- PS-6095 - When collecting items from chests, no information is given
-- PS-7418
-    - NullReferenceException: StatsBar.RefreshStatsBarPlayerData
-- PS-7417 NullReferenceException: StatsBar.CheckForVisualEffects
-    - Ask Alberto
+- Stain on left side of denim jacket near bottom button hole
+
+- CustomYieldInstructions for the Onboarding WaitFors
+- Onboarding try-catch block
+    - Fix onboarding stuck
+    - Long touch for debug menu
+- Onboarding goes to HomeBase on bail
 - Completed onboarding steps reappear on users while server data is deployed during their session
 - Use a Json serialized class for the localization enum
-- Step 36 should autocomplete for old users
+    - Make editor recompile on users pulling loc
+    - Support extra error checking for compiling LocEnum
 - Multi-day soak tests for onboarding 
-- Support extra error checking for compiling LocEnum
 - Reverse support for texted arrows http://i.imgur.com/eiI5SzX.png
-- Find a resolution to prevent older users from incorrectly receiving tutorials when re-purposing Ironhide ids for onboarding
-- Change moving look at arrow to use new arrow treatment
 - Pointing fingers not always show in HQ   
-- Separate GachaSet/RenderAreaShared into its own prefab
-- Separate GachaSet/GachaSetUI into its own prefab
-- Separate GachaSet/UnitPreviewUI into its own prefab
 - Make sure bundle downloading at funnel end visually appears how you would expect it to
 - Unit idle needs to not play for vehicles during unit preview
-- Old user tool for Mike Stiles
-- Long touch for debug menu
-- One frame pop on the resource generator tutorial
 - Merge GoToSet functions
+- Frame pops
+    - Step 14 begin
+    - Resource generator tutorial
+- ScrollRect plugin
+- Cleanup Onboarding debug options
+- AT&T upload rates
+    - Investigate comcast
+- Debug Start Onboarding step
+- Jenkins Red Sailboat machine
 
 # Checklist Log
+
+### Wed, Feb 10, 2016
+- Step 36 should go to Gacha and be resumable
 
 ### Thu, Jan 28, 2016
 

@@ -1,0 +1,3 @@
+- It's hard for me to differentiate the actionable parts of the onboarding step from the setup or conditional parts of the step
+- The dialogue comments are noisy and hard to maintain, it's hard for me to tell what dialogue I'm actually saying.
+- The conditional if statements that indent the code make it hard to see the flow

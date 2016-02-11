@@ -1,0 +1,6 @@
+resourcePath = "units/megasoma_onryo/megasoma1"
+"megasoma1"
+
+fallbackName = "megasoma1"
+folderName = "units", unitData.Template.UniqueName = "megasoma_onryo"
+resourcePath = "units/megasoma_onryo/megasoma1"
