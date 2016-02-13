@@ -1,10 +1,9 @@
 # Checklist
 
 - Stain on left side of denim jacket near bottom button hole
-
 - CustomYieldInstructions for the Onboarding WaitFors
 - Onboarding try-catch block
-    - Fix onboarding stuck
+- Fix onboarding stuck
     - Long touch for debug menu
 - Onboarding goes to HomeBase on bail
 - Completed onboarding steps reappear on users while server data is deployed during their session
@@ -25,7 +24,7 @@
 - AT&T upload rates
     - Investigate comcast
 - Debug Start Onboarding step
-- Jenkins Red Sailboat machine
+- Jenkins Pinata machine
 
 # Checklist Log
 
