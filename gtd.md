@@ -17,7 +17,7 @@
         - Levels/environments
         - Characters
             - Apparatus style sheet
-            - Apparatus reference
+            - Apparatus bio
     - Daily concept for Brand the Wicked
 - btriana Jekyll site
 - Pinata pamphlet
