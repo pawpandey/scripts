@@ -1,5 +1,6 @@
 # Checklist
 
+- Promotion tutorial should not wait for such a long duration on complete, looks terrible
 - ScrollRect optimization
     - Top-down implementation
     - Extract out CardSmall
