@@ -1,0 +1,24 @@
+proc deljunk(string $rootJointName, string $characterName)
+{
+    select $rootJointName;
+    select -hi; 
+    $SHJoints = `ls -sl -type "joint"`;
+    string $each;
+    for ($each in $SHJoints)
+    {
+        delete -constraints $each;
+    }
+
+    select $rootJointName;
+    parent -w;
+    select -hi RRM_MAIN;
+    $rig = `ls -sl`;
+    lockNode -lock off $rig;
+    delete $characterName;
+    select `ls -typ joint`;
+    select -tgl `ls -typ mesh`;
+    InvertSelection;
+    doDelete;
+} 
+
+deljunk("*SH_ROOTJ", "apparatus");

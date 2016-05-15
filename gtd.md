@@ -30,6 +30,7 @@
 
 ### Someday Maybe
 
+- Cancel Chase credit card
 - ILSpy the rest of Unity's code
 - 1-800-GOT-JUNK for chairs, table and frames
 - H&R Block for Taxes and missing $2000

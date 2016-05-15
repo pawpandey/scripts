@@ -1,0 +1,100 @@
+proc Export_Weapon_Attack() {
+    
+rename_weapon();
+
+float $startTime=`playbackOptions -q -min`;
+float $endTime=`playbackOptions -q -max`;
+
+string $dirNAM_ATOM ="D:/svn/shadow/Assets/Bundled/units/" + $UnitName_A2F + "/animation/";
+string $fileNAM_ATOM = $UnitName_A2F + "gunattack";
+
+select `ls -typ joint`;
+
+FBXExportSplitAnimationIntoTakes -clear;
+FBXProperty Export|IncludeGrp|Animation  -v true;
+FBXProperty Export|IncludeGrp|Animation  -q;
+FBXExportSplitAnimationIntoTakes -v $fileNAM_ATOM $startTime $endTime;
+FBXExport -f ($dirNAM_ATOM + $fileNAM_ATOM + ".fbx") -s;
+
+}
+
+
+
+
+
+proc bakeSkel()   {
+
+    currentUnit -linear "m"; 
+    currentUnit -query -linear; 
+    currentUnit -time ntsc;
+
+    select `ls -typ joint`;
+
+    float $startTime=`playbackOptions -q -min`;
+    float $endTime=`playbackOptions -q -max`;
+    bakeSimulation -t ($startTime+":"+$endTime);
+
+}    
+
+
+
+
+
+proc resetUnit() {
+    currentUnit -linear "m"; 
+    currentUnit -query -linear; 
+    currentUnit -time ntsc;
+}
+
+
+
+
+proc cutNonSkelKey()   {
+select -r root;
+select -hi;
+string $selNSkel[] = `ls -sl -typ joint`;
+string $nonskelbuffer[];
+string $eachnonskelbuffer;
+
+
+    for ($eachNSkel in $selNSkel) {
+        $nonskelTokens = `tokenize $eachNSkel "_" $nonskelbuffer`;   
+        $roop = 0;
+        
+        for ($eachnonskelbuffer in $nonskelbuffer) {
+            string $findnonskeleton = `match "non" $eachnonskelbuffer`;
+            string $findNUBskeleton = `match "NUB" $eachnonskelbuffer`;
+            string $findNUB1skeleton = `match "NUB1" $eachnonskelbuffer`;
+                                 
+                if ( size ($findnonskeleton) > 0 ) {
+                    cutKey $eachNSkel;
+                        
+                    break;
+                 } 
+
+
+                if ( size ($findNUBskeleton) > 0 ) {
+                    cutKey $eachNSkel;
+  
+                    break;
+                 } 
+
+
+                if ( size ($findNUB1skeleton) > 0 ) {
+                    cutKey $eachNSkel;
+  
+                    break;
+                 } 
+
+
+                 else {
+                    $roop = 1;
+                 }  
+        } 
+
+    cutKey ($eachNSkel + ".s") ;
+    cutKey ($eachNSkel + ".v") ;
+
+
+    }
+}
